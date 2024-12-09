@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "prettier.configPath": ".prettierrc",
+    "eslint.useFlatConfig": false,
+    "prettier.prettierPath": "./node_modules/prettier",
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+}
