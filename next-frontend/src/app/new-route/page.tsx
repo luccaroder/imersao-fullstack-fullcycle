@@ -1,5 +1,6 @@
 // import { MapNewRoute } from "./MapNewRoute";
 import { NewRouteForm } from "./NewRouteForm";
+import { MapNewRoute } from "./MapNewRoute";
 
 export async function searchDirections(source: string, destination: string) {
   const [sourceResponse, destinationResponse] = await Promise.all([
@@ -167,7 +168,7 @@ export async function NewRoutePage({
           </div>
         )}
       </div>
-      {/* <MapNewRoute directionsData={directionsData} /> */}
+      <MapNewRoute directionsData={directionsData} />
     </div>
   );
 }
